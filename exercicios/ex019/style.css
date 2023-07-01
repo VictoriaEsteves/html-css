@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+    /* em HTML é id = em CSS é # (So pode um elemento)
+       em HTML é class = em CSS é . (pode varios elementos)
+    */
+
+    body{
+        background-color: #D3C2EB;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #principal{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        background-color: #A598B8;
+    }
+
+    .basico{
+        color: rgb(217, 238, 217);
+    }
+
+    .intermediario{
+        color: rgb(252, 252, 224);
+    }
+
+    .avancado{
+        color: rgb(255, 210, 210);
+    }
+
+    h1{
+        text-align: left;
+        color: #4E396B;
+    }
+
+    h2{
+        text-align: left;
+        color: #60596B;
+    }
+
+    p{
+        font: italic normal 1em 'Belanosima', sans-serif;
+    }
+
+

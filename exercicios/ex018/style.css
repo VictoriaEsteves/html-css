@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em arial, verdana, serif;
+    background: #0C1117;
+}
+
+h1{
+    text-align: center; 
+    color: white;
+}
+
+h2{
+    text-align: right;
+    color: white;
+    text-decoration: underline;
+}
+
+p{
+    font: italic bold 16px arial, verdana, serif;
+    color: white;
+    text-align: justify;
+    text-indent: 30px
+}

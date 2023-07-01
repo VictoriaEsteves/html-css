@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+        /*
+
+        #  = id
+        .  = class
+        :  = pseudo classe
+        :: = pseudo element
+        >  = children
+
+        */
+
+        body{
+            font-family: monospace;
+        }
+        h1{
+            font-family: 'Belanosima', sans-serif;
+            color: rgb(150, 150, 150);
+            font-weight: normal;
+        }
+
+        h1::first-letter{
+            color: rgb(223, 120, 168);
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        a{
+            color: lightpink;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(223, 120, 168);
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .especial{
+            background-color: bisque;
+        }
+ 
+        .especial::after{
+            content: '⇤';
+        }
+        .especial::before{
+            content: '⇥';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css">Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" class="especial">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site curso em video</a></li>
+
+    </ul>
+</body>
+</html>
