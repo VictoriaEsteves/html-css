@@ -6,7 +6,7 @@
     --colorf2: black;
     --background-color: whitesmoke;
     --background-color1: rgb(87, 87, 87);
-    --background-color2: rgba(0, 0, 0, 0.342);
+    --background-color2: rgba(0, 0, 0, 0.384);
     
 
     --font-weight: bolder;
@@ -60,6 +60,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .normal {
     background-color: var(--background-color);
     color: var(--colorf2);
@@ -68,12 +72,27 @@ section {
 .imagem {
     background-color: var(--background-color1);
     color: var(--colorf);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.322);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
     display: inline-block;
     padding: 7px;
     background-color: var(--background-color2);
+    border-radius: 5px;    
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('../imagens/background001.jpg.png');
+    background-position: right center;
 }
 
 footer {
