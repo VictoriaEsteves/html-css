@@ -11,8 +11,9 @@
 
     --font-weight: bolder;
 
-    --font1: 'Passion One', cursive;
-    --font2: 'Sriracha', cursive;
+    --font1:  Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
 }
 
 * {
@@ -23,6 +24,7 @@
 html, body {
     min-height: 100vh;
     background-color: whitesmoke;
+    font-family: var(--font1);
 }
 
 header {
@@ -30,6 +32,12 @@ header {
     color: var(--colorf);
     text-align: center;
     padding: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 5vw;
 }
 
 a {
@@ -45,8 +53,11 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 30px;
+    line-height: 2em;
+
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 .normal {
@@ -60,7 +71,8 @@ section {
 }
 
 .imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 7px;
     background-color: var(--background-color2);
 }
 
