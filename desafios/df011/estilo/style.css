@@ -86,7 +86,7 @@ section > p {
 }
 
 #img01 {
-    background-image: url('../imagens/background002.jpg') url('../imagens/background002.png');
+    background-image: url('../imagens/background002.jpg') url('../imagens/background002.png') url('../imagens/background001.heic');
     background-position: right center;
 }
 
