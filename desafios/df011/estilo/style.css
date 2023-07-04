@@ -1,2 +1,69 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --colorf: white;
+    --colorf2: black;
+    --background-color: whitesmoke;
+    --background-color1: rgb(87, 87, 87);
+    --background-color2: rgba(0, 0, 0, 0.342);
+    
+
+    --font-weight: bolder;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: black;
+    color: var(--colorf);
+    text-align: center;
+    padding: 50px;
+}
+
+a {
+    color: var(--colorf);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: var(--background-color);
+    color: var(--colorf2);
+}
+
+.imagem {
+    background-color: var(--background-color1);
+    color: var(--colorf);
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: var(--background-color2);
+}
+
+footer {
+    background-color: black;
+    color: var(--colorf);
+    padding: 10px;
+    text-align: center;
+}
