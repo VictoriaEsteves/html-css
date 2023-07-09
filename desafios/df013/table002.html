@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabela 0.2</title>
+    <style>
+        body {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        table {
+            width: 800px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgb(128, 128, 128);
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgb(216, 216, 216);
+        }
+        .name {
+            width: 90px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agora colocando em pratica com informaçoes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes/Series</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3"; class="name">Mulheres</th>
+                <td>Victoria</td>
+                <td>Harry Potter</td>
+                <td>Shadow Hunters</td>
+                <td>Animais Fantasticos</td>
+            </tr>
+            <tr>
+                <td class="name">Rafaela</td>
+                <td>Midsomar</td>
+                <td>Clube da luta</td>
+                <td>A viagem de chihiro</td>
+            </tr>
+            <tr>
+                <td class="name">Laura</td>
+                <td>O Círculo</td>
+                <td>Os Guardiões</td>
+                <td>Velozes e Furiosos</td>
+            </tr>
+            <tr>
+                <th rowspan="3"; >Homens</th>
+                <td class="name">Lucas</td>
+                <td>Star Wars</td>
+                <td>Suits</td>
+                <td>Breaking Bad</td>
+            </tr>
+            <tr>
+                <td class="name">Luan</td>
+                <td>Homem Aranha 2</td>
+                <td>O resgate do soldado Ryan</td>
+                <td>Até o ultimo Homem</td>
+            </tr>
+            <tr>
+                <td class="name">Daniel</td>
+                <td>A Ilha do medo</td>
+                <td>South Park</td>
+                <td>How met your mother</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
