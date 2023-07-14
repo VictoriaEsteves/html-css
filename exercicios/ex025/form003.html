@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="nome">Nome</label>
+            <input type="text" name="Nome" id="nome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="inum">Media</label>
+            <input type="number" name="num" id="inum" min="0" max="10" placeholder="Nota" step="0.5" required>
+        </p>
+        <!-- 
+            type="number" so deixara numeros
+            Step Sequencia que ele segue, 1 em 1, 0,5 em 0,5 ou 0,1 0,2 0,3.... 
+            required (campo obrigatorio)
+        -->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
