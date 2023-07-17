@@ -49,7 +49,7 @@ menu > ul > li > a {
     text-align: center;
     background-color: rgb(87, 87, 87);
     color: white;
-    border-top: 2px solid gray;
+    border-radius: 2px;
 }
 
 menu a:hover {
