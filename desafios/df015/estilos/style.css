@@ -37,6 +37,14 @@ main div {
     
 }
 
+#nome
+, #senha {
+    border: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
 h1 {
     padding: 10px;
     text-align: center;
