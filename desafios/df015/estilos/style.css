@@ -12,17 +12,23 @@ body, html {
 
 main {
     width: 600px;
+    height: 400px;
+    
     margin: auto;
     padding: 20px;
-    background-color: rgb(231, 231, 231);
+
+    background: rgb(231, 231, 231) url(../imagens/pexels-matej-776336.jpg) right no-repeat;
+    background-size: contain;
     border-radius: 15px;
+}
+
+main div {
+    width: 300px;
+    margin: 12% 1%;
 }
 
 h1 {
     padding: 10px;
-
+    text-align: center;
 }
 
-img {
-    width: 200px;
-}
