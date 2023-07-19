@@ -27,6 +27,14 @@ main div {
     margin: 12% 1%;
 }
 
+.name, .pass {
+    margin: 10px 30px;
+}
+.enter {
+    margin: 10px 70px;
+    
+}
+
 h1 {
     padding: 10px;
     text-align: center;
