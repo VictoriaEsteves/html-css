@@ -37,8 +37,7 @@ main div {
     
 }
 
-#nome
-, #senha {
+#nome, #senha {
     border: 0px;
     padding: 5px;
     border: 1px solid black;
