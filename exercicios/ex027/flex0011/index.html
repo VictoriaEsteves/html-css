@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         .conteiner {
-            background-color: grey;
-
+            background-color: rgb(214, 214, 214);
             display: flex;
+            flex-flow: row nowrap;
         }
 
-        .item {
-            background-color: lightblue;
-            border: 1px solid black;
-            flex: auto;
+        .item1 {
+            background-color: rgb(173, 230, 216);
+            border: 1px solid rgba(129, 129, 129, 0.671);
             text-align: center;
+            flex-basis: 200px;
         }
+
+        #cx1 {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+        #cx2 {
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        #cx3 {
+           flex-shrink: 3;
+           flex-grow: 1; 
+        }
+
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div id="cx1" class="item1">A</div>
+        <div id="cx2" class="item1">B</div>
+        <div id="cx3" class="item1">C</div>
+    </div>
     </div>
 </body>
 </html>
