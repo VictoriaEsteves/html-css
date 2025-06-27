@@ -34,7 +34,6 @@ h1 {
 
 nav {
     display: flex;
-    justify-content: space-around;
     flex: 0 0 450px;
 }
 
@@ -55,7 +54,7 @@ button:hover {
 
 main {
     background-color: whitesmoke;
-    padding: 10px 15px;
+    padding: 20px 15px;
     margin: 1%;
     border-radius: 10px;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.219);
@@ -63,4 +62,21 @@ main {
 
 h2 {
     padding-bottom: 1.5px;
+}
+
+@media screen and (max-width: 500px) {
+    
+    header, header > nav {
+        flex-flow: column nowrap;
+        flex-basis: auto;
+    }
+    header > h1 {
+        flex-basis: 50px;
+        text-align: center;
+        align-content: center;
+    }
+        button {
+        flex-basis: 50px;
+        margin: 1px;
+    }
 }
