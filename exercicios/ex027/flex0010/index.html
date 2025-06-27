@@ -6,28 +6,54 @@
     <title>Document</title>
     <style>
         .conteiner {
-            background-color: grey;
-
+            background-color: rgb(214, 214, 214);
             display: flex;
+            flex-flow: row nowrap;
         }
 
-        .item {
-            background-color: lightblue;
-            border: 1px solid black;
-            flex: auto;
-            text-align: center;
+        .conteiner2 {
+            background-color: rgb(214, 214, 214);
+            display: flex;
+            flex-flow: row wrap;
         }
+
+
+        .item1 {
+            background-color: rgb(173, 230, 216);
+            border: 1px solid rgba(129, 129, 129, 0.671);
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 0;
+        }
+
+        .item2 {
+            background-color: rgb(224, 206, 238);
+            border: 1px solid rgba(129, 129, 129, 0.671);
+            text-align: center;
+            flex-basis: 250px;
+            flex-grow: 1;
+        }
+        
     </style>
 </head>
 <body>
+    <p>Shrink 0:</p>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item1">A</div>
+        <div class="item1">B</div>
+        <div class="item1">C</div>
+    </div>
+    <p>Grow 1:</p>
+    <div class="conteiner">
+        <div class="item2">A</div>
+        <div class="item2">B</div>
+        <div class="item2">C</div>
+    </div>
+    <p>Grow 1 e flex-flow: row wrap:</p>
+    <div class="conteiner2">
+        <div class="item2">A</div>
+        <div class="item2">B</div>
+        <div class="item2">C</div>
     </div>
 </body>
 </html>
