@@ -24,10 +24,6 @@ header {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.329);
 }
 
-h1, nav {
-    border: 1px dotted black;
-}
-
 h1 {
     flex: 0 0 320px;
 }
@@ -35,6 +31,8 @@ h1 {
 nav {
     display: flex;
     flex: 0 0 450px;
+    justify-content: space-between;
+
 }
 
 button {
